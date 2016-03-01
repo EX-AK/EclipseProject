@@ -1,0 +1,43 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+  
+
+    </style>
+    
+    
+                <style name="AppBaseTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- API 11 theme customizations can go here. -->
+        
+  
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="actionMenuTextColor">@color/themeColor</item> -->
+         <item name="colorPrimary">@color/themeColor</item>
+         <item name="colorPrimaryDark">@color/themeColordark</item>
+    </style>
+    
+            <style name="AppTheme2" parent="AppBaseTheme2">
+        <!-- API 11 theme customizations can go here. -->
+        
+         <item name="colorPrimaryDark">@color/themeColordark</item>
+    </style>
+    
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/shape</item>
+        
+    </style>
+    
+     <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+</resources>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/realtive_layout_delivery_detail_list_style"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="#ffffff"
+    android:descendantFocusability="blocksDescendants" >
+
+    <TextView
+        android:id="@+id/dish_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="15dp"
+        android:focusable="false"
+        android:text="TextView"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#000000" />
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/dish_name"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+        android:gravity="left"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignTop="@+id/rate"
+        android:layout_toLeftOf="@+id/rate"
+        android:scaleType="fitXY"
+        android:src="@drawable/rupee" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+       android:paddingBottom="5dp"
+       android:paddingLeft="5dp"
+       android:paddingRight="5dp" >
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:padding="4dp"
+        android:focusable="false"
+        android:background="@drawable/edittext_bg" >
+
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:text="Select Date"
+            android:textColor="#000000"
+            android:textSize="12sp" />        
+        <ImageView
+            android:id="@+id/calendar"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/date"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/date"
+            android:focusable="false"
+            android:src="@drawable/calendar" />
+        
+            </LinearLayout>
+                <Spinner
+        android:id="@+id/delivery_time"
+        android:layout_width="0dp"
+        android:layout_height="34dp"
+        android:layout_weight="2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/edittext_bg"
+        android:focusable="false"
+        android:gravity="center_vertical" />
+                    <RelativeLayout
+         android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_toRightOf="@+id/dish_name" >
+            <ImageView
+        android:id="@+id/delete_item"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:focusable="false"  
+        android:scaleType="fitXY"    
+        android:src="@drawable/delete_item" />
+            <TextView
+                android:id="@+id/deleteButtonLable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:textStyle="bold"
+                android:text="Delete" />
+
+                </RelativeLayout>
+
+        
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

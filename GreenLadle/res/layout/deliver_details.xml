@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:background="#ffffff">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="300dp" 
+    android:layout_weight="20"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/deliveryDetailNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="If You Want Dish To be Instantly Delivered, Do Not Fill Its Date And Time " />
+    <View 
+        android:id="@+id/deliveryDetailNoteDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/deliveryDetailNote"
+        android:background="#bfbbc1"/>
+
+    <ListView
+        android:id="@+id/dishes_delivery_details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/deliveryDetailNoteDivider"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:focusable="true" >
+    </ListView>
+
+</RelativeLayout>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <Button
+        android:id="@+id/checkOutContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:background="@drawable/level_min"
+        android:padding="5dp"
+        android:textColor="#ffffff"
+        android:text="Continue To check Out" />
+
+    <TextView
+        android:id="@+id/Total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="TextView" />
+    
+    </LinearLayout>
+    </LinearLayout>

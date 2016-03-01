@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Green Ladle</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_signout">Signout</string>
+    <string name="action_basket">basket count</string>
+    <string name="action_filter_list">Filter</string>
+    <string name="action_add_more">basket count</string>
+    <string name="dropdown_1">All</string>
+    <string name="dropdown_2">Veg</string>
+    <string name="dropdown_3">Non-Veg</string>
+    <string name="facebookAppId">928795817192960</string>
+    <string name="dialog_title_userpreference">Meal Has Been Successfully Added To The Cart</string>
+    <string name="dialog_title_delete_item">Are you Sure You Want To Delete This Meal</string>
+
+    <!-- All the strings used in preference activity -->
+
+    <string name="screen1_title">Prefrences</string>
+    <string name="title_over_centerimage1">Get farm-fresh ingredients and delicious 
+                                           recipes delivered right at your door.</string>
+
+    <!-- text for the button1 in preference activity -->
+    <string name="text1_btn1_page1">Instant Delivery</string>
+    <string name="text2_btn1_page1">Rs 600 per meal</string>
+    <string name="text3_btn1_page1">Delivered in 24 Hours</string>
+
+    <!-- text for the button2 in preference activity -->
+    <string name="text1_btn2_page1">Monthly Package</string>
+    <string name="text2_btn2_page1">Rs 500 per meal</string>
+    <string name="text3_btn2_page1">Select any delivery dates</string>
+    <string name="title_activity_pick_your_plan">Pick Your Plan</string>
+
+    <!-- All the strings used in pick your plan activity -->
+
+    <string name="screen2_title">Pick your plan</string>
+
+    <!-- text for the linearlayout named plan for 2 -->
+    <string name="text1_linearlayout1_page2">2-Person Plan</string>
+    <string name="text2_linearlayout1_page2">Seasonally-inspired meal for two</string>
+    <string name="text3_linearlayout1_page2">Price Per Meal-Rs 500/-</string>
+    <string name="text4_linearlayout1_page2">No Commitments. Cancel any time</string>
+
+    <!-- text for the linearlayout named family plan -->
+    <string name="text1_linearlayout2_page2">Family Plan</string>
+    <string name="text2_linearlayout2_page2">Family-style meal for four</string>
+    <string name="text3_linearlayout2_page2">Price Per Meal-Rs 1000/-</string>
+    <string name="text4_linearlayout2_page2">No Commitments. Cancel any time</string>
+    <string name="btns_linearlayout2_page2">Select</string>
+    <string name="title_activity_select_dishes_per_month">Select Dishes PerMonth</string>
+
+    <!-- All the strings used in select dishes per month activity -->
+
+    <string name="screen3_title">Select Dishes per Month</string>
+    <string name="title_activity_thankyou">Thankyou!</string>
+
+    <!-- All the strings used in select dishes per month activity -->
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+
+    <!-- All the strings for drawer list -->
+    <string-array name="mdrawerListArray">
+        <item>Home</item>
+        <item>My Profile</item>
+        <item>My Order History</item>
+        <item>Customer Support</item>
+        <item>Refer n Earn</item>
+        <item>About Us</item>
+    </string-array>
+
+    <!-- All the strings for drawer list images -->
+    <string-array name="mdrawerListArrayimg">
+        <item>@drawable/home</item>
+        <item>@drawable/myprofile</item>
+        <item>@drawable/myorderhistory</item>
+        <item>@drawable/customersupport</item>
+        <item>@drawable/refernearn</item>
+        <item>@drawable/aboutus</item>
+    </string-array>
+
+    <string name="title_activity_check">Check</string>
+    <string name="title_activity_spalsh_screen">SpalshScreen</string>
+    <string name="customer_support_heading">Greenladle Customer Support is here for your
+         help if you face any trouble on our App. Feel free to give us a feedback.</string>
+    <string name="customer_support_email_text">Email us anytime at contact@greenladle.com</string>
+    <string name="customer_support_second_text">Or you can call us between 11 AM - 5 :30 PM from Monday - Friday</string>
+    <string name="title_activity_home_check">HomeCheck</string>
+    <string name="title_activity_refer_nearn">ReferNEarnActivity</string>
+    <string name="title_activity_my_order_history">MyOrderHistoryActivity</string>
+    <string name="title_activity_customer_support">CustomerSupportActivity</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_green_ladle">CheckOut</string>
+    <string name="aboutus1">Most of the times, 
+        you kill the thought of home-cooking something new or global cuisines 
+        for the hassles of shopping so many different ingredients or lack of a proper 
+        recipe or for the unavailability of authentic ingredients!</string>
+    <string name="aboutus2">Precisely the reason to Green Ladle!</string>
+    <string name="aboutus3">Home-delivery of exact and authentic pre-portioned 
+            ingredients so no more wasteful cooking Home-delivery of detailed recipes 
+            that guide you visually and perfectly without any confusion.</string>
+            
+    <string name="citySpinnerPromt">Select City</string>
+    
+     <string-array name="cityName">
+         <item>Select City</item>
+        <item>Chandigarh</item>
+        <item>Panchkula</item>
+        <item>Mohali</item>
+    </string-array>
+
+</resources>

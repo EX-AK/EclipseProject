@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ChefAtRun/assets/fonts/Montserrat-Regular.otf&apos; to &apos;greenladle.otf&apos;" description="Rename resource &apos;Montserrat-Regular.otf&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="assets/fonts/Montserrat-Regular.otf" name="greenladle.otf" stamp="1451209889385" updateReferences="true"/>
+</session>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="exousia.greenladle"
+    android:versionCode="4"
+    android:versionName="3.02" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name="exousia.greenladlemain.ApplicationMain"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_min"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ThankyouActivity"
+            android:label="@string/title_activity_thankyou"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name=".SpalshScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme2" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="exousia.intro.MainAppIntro"
+            android:theme="@style/AppTheme2" >
+        </activity>
+        <activity
+            android:name="exousia.greenladlemain.DeliveryDetail"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="exousia.greenladlemain.DishDetailedInfo"
+            android:parentActivityName=".MainContentScreen" >
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebookAppId" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="exousia.intro.LoginActivity"
+            android:theme="@style/AppTheme2"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="247a2a379ef7130a9d395d99c1029ad2889d363b" />
+
+        <activity
+            android:name="exousia.greenladleotp.OtpActivity"
+            android:label="Mobile Verification"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name="exousia.greenladleotp.OtpRegisteration"
+            android:label="Mobile Verification"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home_check"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme2" >
+        </activity>
+        <activity
+            android:name=".MyProfileActivity"
+            android:label="@string/title_activity_home_check"
+            android:launchMode="singleTop"
+            android:theme="@style/AppTheme2" >
+        </activity>
+        <activity
+            android:name=".ReferNEarnActivity"
+            android:label="@string/title_activity_refer_nearn"
+            android:theme="@style/AppTheme2" >
+        </activity>
+        <activity
+            android:name=".MyOrderHistoryActivity"
+            android:label="@string/title_activity_my_order_history"
+            android:theme="@style/AppTheme2" >
+        </activity>
+        <activity
+            android:name=".CustomerSupportActivity"
+            android:label="@string/title_activity_customer_support"
+            android:theme="@style/AppTheme2" >
+        </activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme2" >
+        </activity>
+        <activity
+            android:name=".GreenLadle"
+            android:label="@string/title_activity_green_ladle"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="exousia.greenladlemain.DeliveryDetail" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,18 @@
+<resources>
+
+    <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- API 11 theme customizations can go here. -->
+        <item name="colorPrimary">@color/themeColor</item>
+         <item name="colorPrimaryDark">@color/themeColordark</item>
+    </style>
+
+        <style name="AppTheme2" parent="AppBaseTheme2">
+        <!-- API 11 theme customizations can go here. -->
+        
+         <item name="android:colorPrimaryDark">@color/themeColordark</item>
+    </style>
+</resources>

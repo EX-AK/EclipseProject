@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="themeColor">#7dc24b</color>
+    <color name="themeColordark">#388e3c</color>
+    <color name="dull_green">#66bb6a</color>
+    <color name="dull_grey">#4d4d4d</color>
+     <color name="textcolor">#ffffff</color>
+     <color name="black">#000000</color>
+     <color name="white">#ffffff</color>
+    
+</resources>
